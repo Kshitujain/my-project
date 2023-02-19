@@ -1,0 +1,247 @@
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+ 
+
+
+
+*{ 
+   box-sizing: border-box;
+     margin: 10px; 
+}
+body{
+    background-color: #FBFBFB;
+    font-family:Poppins, Arial, Helvetica, sans-serif
+}
+
+.main-section-header{
+    display: flex; 
+    justify-content:space-evenly; 
+    background-color: #CE0505;
+    align-items: center;  
+    height: 100px;
+    
+}
+
+.e{
+    background-color: white; 
+    color: #CE0505;
+    font-size: 40px;
+    font-weight:bolder;
+    height: 70px;
+    width: 70px; 
+    padding-left:20px;
+    padding-top: 5px;
+    border-style: none;
+    border-radius: 50%;  
+} 
+.p{
+     padding-right: 75rem; 
+}
+.click{
+     padding-right: 80px;
+}         
+.btn{
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-family:poppins, Arial, Helvetica, sans-serif;
+}
+.btn-border{
+    border-style: solid;
+    border-width: 1px;
+    border-color:white ;
+    border-radius: 3px;
+}
+.header{
+   display: flex;
+   padding: 30px;
+   justify-content: flex-start;
+   padding-left: 100px;
+   padding-bottom: 10px;
+}
+.h1{
+    font-size: 45px;
+    color: rgba(1, 16, 71, 0.893);
+    font-family:poppins, Arial, Helvetica, sans-serif;
+}   
+ .mainsection-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    padding-left: 100px;
+    height: auto;
+    background-color:#FBFBFB ;
+    
+    
+ }
+ .filter{
+    width: 350px;
+    height: 1000px;
+    padding: 20px;
+    box-shadow: 0px 3px 6px 0.5px #00000029;
+    background-color: white;
+     /* x-axis y-axis blur scale color */
+ }
+  .h3{
+    font-size: 25px;
+    color: #192F60;
+ }
+ 
+
+ .shop{
+    flex-grow: 5;
+    padding: 50px;
+    padding-left: 50px;
+    padding-top: 0.5px;
+    margin: 0;
+ }
+ .shop-1{
+    padding: 50px;
+    margin-bottom: 50px;
+    width: 1100px;
+    background-color:#FFFFFF ;
+    box-shadow: 0px 3px 6px 0.5px #00000029;
+ }
+ 
+
+.text-color{
+    color:#192F60;
+    font-size: 20px;
+    font-weight: 500;
+}
+.text-color2{
+    color:#8C96AB ;
+    font-size: 20px;
+}
+.filtersize{
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0;
+}
+.locationsize{
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+    color: #192F60;
+    font-weight: 500;
+}
+.shop-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+    padding: 30px;
+    /* margin: 0; */
+}
+.shop-1-info{
+  /* border-bottom-style:ridge ; */
+    height:60%  ;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+   
+}
+.shop-1-info-2{
+   
+    height: 45%;
+    padding-bottom: 30px;
+    display: flex;
+
+    
+}
+
+.bake{
+   font-size: 35px;
+   font-weight:900;
+   color: rgba(1, 16, 71, 0.893);
+   padding: 1px;
+   height: 40%;
+   margin: 0;
+   
+}
+.fort{
+font-size: 22px ;
+color:#192F60 ;
+font-weight: 500;
+}
+.text-size{
+    font-size: 20px;
+    color: #636F88;
+}
+.text-size2{
+    font-size: 22px;
+    color:#192F60;
+   font-weight: 500;
+}
+.img > img{
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     border:none;
+     border-radius:25% ;
+
+     
+
+}
+.img{
+   height: 190px;
+   width: 190px;
+    margin: 0;
+     padding: 20px;
+     padding-bottom: 30px;
+     padding-top: 10px;
+     /* overflow: hidden; */
+
+     
+}
+.plot-D{
+    color:#636F88 ;
+}
+
+
+
+.tagline{
+    height: 50px;
+    width: 270px;
+    font-size: 20px;   
+    color:#636F88 ;
+    padding: 10px;
+   
+}
+.checkbox{ 
+ height: 25px;
+ width: 25px;
+ background-color: #3A5075;
+
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    width: 1100px;
+   
+    
+}
+.nav{
+    height: 45px;
+    width: 45px;
+    font-size: 28px;
+    font-weight: 500;
+    border-style:solid ;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 1px;
+    padding-left: 12px;
+    color: #8C96AB;
+    /* padding-left: 13px; */
+}
+.nav-1{
+    background-color: #8C96AB;
+    color: white;
+}
